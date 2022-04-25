@@ -65,8 +65,8 @@ return invalid;
  } //end of fn
 function idInvalidCardCompanies(nestedArrOfInvalidNumbers){
   let compList=[];
- for(let i=0;i<nestedArrOfInvalidNumbers.length;i++){
-   let check=nestedArrOfInvalidNumbers[i][0];
+ for(let k=0;k<nestedArrOfInvalidNumbers.length;k++){
+   let check=nestedArrOfInvalidNumbers[k][0];
   if ((check == 3)&&(compList.findIndex(i => {
   return i=='Amex';
 }))==-1){
